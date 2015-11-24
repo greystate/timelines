@@ -14,6 +14,9 @@ I honestly don't know if anyone else but me would like to try it, but in the eve
 4. Run the `build.sh` script (e.g. with: `sh build.sh` in its directory)
 5. Open the generated `timelines.html` file in a web browser
 
+### Credits
+
+This is of course entirely and heavily inspired by Eric Meyer's [CSS Module Timelines][ORIGIN] page, which you should definitely checkout.
 
 ## OMG, why didn't you use _&lt;anything else but XSLT&gt;_ for this??
 
@@ -30,3 +33,5 @@ Here's some things I'd like to be able to do at some point:
 [ERIC]: https://twitter.com/meyerweb/
 [ACC]: https://www.w3.org/accounts/request
 [KEY]: https://www.w3.org/users/myprofile/apikeys
+
+[ORIGIN]: http://meyerweb.com/eric/css/timelines
