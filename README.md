@@ -6,7 +6,7 @@ The `specifications.xml` file lists the ones you'd like to include, by specifyin
 
 ## How to use it
 
-I honestly don't know if anyyone would like to try it, but in the event that they will, here's what you need to do:
+I honestly don't know if anyone else but me would like to try it, but in the event that they will, here's what they (you) need to do:
 
 1. Get a [W3C account][ACC] if you haven't got one
 2. Create an [API key][KEY]
@@ -15,10 +15,16 @@ I honestly don't know if anyyone would like to try it, but in the event that the
 5. Open the generated `timelines.html` file in a web browser
 
 
-
 ## OMG, why didn't you use _&lt;anything else but XSLT&gt;_ for this??
 
 Because :metal: :rocket: and :shipit: !
+
+## TODO
+
+Here's some things I'd like to be able to do at some point:
+
+- [ ] Do some caching so we don't hit the API on every build (one key allows ~5000 request per hour, but still...)
+- [ ] Use commandline args for API key and `specifications.xml` file
 
 [TWEET]: https://twitter.com/meyerweb/status/668856592553656321
 [ERIC]: https://twitter.com/meyerweb/
