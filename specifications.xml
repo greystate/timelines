@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specifications>
+	<summary>A chronological listing of specification drafts organized by specification.</summary>
+
+	<specification shortname="CSS2">
+		<title>Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</title>
+	</specification>
+	<specification shortname="css-style-attr">
+		<title>CSS Style Attributes</title>
+	</specification>
+	<specification shortname="css3-mediaqueries">
+		<title>Media Queries</title>
+	</specification>
+	<specification shortname="css-mobile">
+		<title>CSS Mobile Profile 2.0</title>
+	</specification>
+	<specification shortname="CSS3-selectors">
+		<title>Selectors Level 3</title>
+	</specification>
+	<specification shortname="selectors4">
+		<title>Selectors Level 4</title>
+	</specification>
+	<specification shortname="css3-conditional">
+		<title>CSS Conditional Rules Module Level 3</title>
+	</specification>
+</specifications>

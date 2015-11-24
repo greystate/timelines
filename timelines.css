@@ -1,0 +1,108 @@
+/*
+	Just extracted from [CSS Module Timelines](http://meyerweb.com/eric/css/timelines)
+	and saved untouched as a separate CSS file.
+*/
+
+body {font: small sans-serif; margin: 1em; padding: 0;}
+h1 {font-size: 1em; background: black; margin: -1em -1em 2.5em; padding: 1em 1em 0.5em; border-bottom: 0.25em #333 solid; outline: 0.125em #888 solid;}
+h1 a {font-size: 1.33em; color: #CCD; text-decoration: none; display: block;}
+
+h2 {float: left;}
+#themes {float: right; margin: 0.25em 2.5em 0 0;}
+#themes h3, #themes ul, #themes li {display: inline-block;}
+#themes h3 {vertical-align: bottom;}
+#themes ul {margin: 0 0 1em; padding: 0;}
+#themes li {list-style: none; margin: 0 0.25em;}
+
+#tl {clear: both;}
+#tl table {margin: 0 5em 15em 0; border-collapse: separate; border-spacing: 0 3px;}
+#tl tr:hover {background: #BBE;}
+#tl th {margin: 0; padding: 0.2em 0.5em 0.1em;
+	font-size: 1em; text-align: left; background: #DDD;}
+#tl ul {position: relative; width: 70em; margin: 0; padding: 0;
+	border-top: 1px solid #DDD;}
+
+#tl li {display: block; position: absolute; top: -5px; padding: 0;
+	border: 1px solid navy; background: #AAF; color: transparent;
+	width: 8px; height: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	list-style: none;
+	white-space: nowrap;
+	overflow: hidden;}
+#tl li a {color: transparent;}
+
+#tl .w3colors li {border-color: #808080;}
+#tl .w3colors li a[href*="/WD-"] {background: #E56E32;}
+#tl .w3colors li a[href*="/LC-"] {background: #E2A569;}
+#tl .w3colors li a[href*="/CR-"] {background: #CED510;}
+#tl .w3colors li a[href*="/PR-"] {background: #72AB34;}
+#tl .w3colors li a[href*="/REC-"] {background: #2F9C40;}
+
+#tl .gray li {border-color: #808080;}
+#tl .gray li a[href*="/WD-"] {background: #DDD;}
+#tl .gray li a[href*="/LC-"] {background: #BBB;}
+#tl .gray li a[href*="/CR-"] {background: #999;}
+#tl .gray li a[href*="/PR-"] {background: #777;}
+#tl .gray li a[href*="/REC-"] {background: #333;}
+#tl .gray tr:hover li a[href*="/REC-"] {color: #DDD;}
+
+#tl .heat li {border-color: #800000;}
+#tl .heat li a[href*="/WD-"] {background: #EDD;}
+#tl .heat li a[href*="/LC-"] {background: #EAA;}
+#tl .heat li a[href*="/CR-"] {background: #E88;}
+#tl .heat li a[href*="/PR-"] {background: #E66;}
+#tl .heat li a[href*="/REC-"] {background: #E00;}
+
+#tl tr:hover li {overflow: hidden; z-index: 1000;
+	height: auto; width: auto; padding: 1px;
+	-webkit-transform: rotate(45deg); -webkit-transform-origin: 12px 50%;
+	-moz-transform: rotate(45deg); -moz-transform-origin: 12px 50%;
+	-ms-transform: rotate(45deg); -ms-transform-origin: 12px 50%;
+	-o-transform: rotate(45deg); -o-transform-origin: 12px 50%;
+	transform: rotate(45deg); transform-origin: 12px 50%;
+	}
+#tl tr:hover li:hover {z-index: 2000;}
+#tl tr:hover li a {padding: 1px 10px 0 4px; border-left: 8px solid #000;
+	font-weight: bold; text-decoration: none;
+	color: #000; background: #CCE;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+}
+#tl tr:hover li a:hover {background: #FFA;}
+
+li.y1997 {left: -3em;}
+li.y1998 {left: -3em;}
+li.y1999 {left: 0em;}
+li.y2000 {left: 5em;}
+li.y2001 {left: 10em;}
+li.y2002 {left: 15em;}
+li.y2003 {left: 20em;}
+li.y2004 {left: 25em;}
+li.y2005 {left: 30em;}
+li.y2006 {left: 35em;}
+li.y2007 {left: 40em;}
+li.y2008 {left: 45em;}
+li.y2009 {left: 50em;}
+li.y2010 {left: 55em;}
+li.y2011 {left: 60em;}
+li.y2012 {left: 65em;}
+li.y2013 {left: 70em;}
+li.m01 {margin-left: 0.3em;}
+li.m02 {margin-left: 0.7em;}
+li.m03 {margin-left: 1.1em;}
+li.m04 {margin-left: 1.5em;}
+li.m05 {margin-left: 1.9em;}
+li.m06 {margin-left: 2.3em;}
+li.m07 {margin-left: 2.7em;}
+li.m08 {margin-left: 3.1em;}
+li.m09 {margin-left: 3.5em;}
+li.m10 {margin-left: 3.9em;}
+li.m11 {margin-left: 4.3em;}
+li.m12 {margin-left: 4.7em;}
